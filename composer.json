@@ -63,7 +63,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AustinHeap\\Database\\Encryption\\": "src"
+            "McKibbe\\Database\\Encryption\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -73,10 +73,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AustinHeap\\Database\\Encryption\\EncryptionServiceProvider"
+                "McKibbe\\Database\\Encryption\\EncryptionServiceProvider"
             ],
             "aliases": {
-                "DatabaseEncryption": "AustinHeap\\Database\\Encryption\\EncryptionFacade"
+                "DatabaseEncryption": "McKibbe\\Database\\Encryption\\EncryptionFacade"
             }
         }
     }
