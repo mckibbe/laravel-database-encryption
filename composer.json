@@ -1,5 +1,5 @@
 {
-    "name": "austinheap/laravel-database-encryption",
+    "name": "mckibbe/laravel-database-encryption",
     "description": "A package for automatically encrypting and decrypting Eloquent attributes in Laravel 5.5+, based on configuration settings.",
     "keywords": [
         "laravel",
@@ -52,7 +52,7 @@
     },
     "require": {
         "php": ">=7.1.0",
-        "laravel/framework": "5.5.*|5.6.*|5.7.*",
+        "laravel/framework": "5.7.*|5.8.*",
         "paragonie/random_compat": "^2.0"
     },
     "require-dev": {
@@ -69,7 +69,7 @@
             "src/helpers.php"
         ]
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
