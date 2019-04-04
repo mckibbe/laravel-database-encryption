@@ -7,13 +7,13 @@
  */
 declare(strict_types=1);
 
-namespace AustinHeap\Database\Encryption\Traits;
+namespace McKibbe\Database\Encryption\Traits;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Contracts\Encryption\EncryptException;
-use AustinHeap\Database\Encryption\EncryptionFacade as DatabaseEncryption;
+use McKibbe\Database\Encryption\EncryptionFacade as DatabaseEncryption;
 
 /**
  * HasEncryptedAttributes.

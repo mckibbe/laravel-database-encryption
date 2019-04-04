@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace AustinHeap\Database\Encryption;
+namespace McKibbe\Database\Encryption;
 
 /**
  * EncryptionServiceProvider.
@@ -61,6 +61,6 @@ class EncryptionServiceProvider extends \Illuminate\Support\ServiceProvider
             return new EncryptionHelper();
         });
 
-        $this->commands([\AustinHeap\Database\Encryption\Console\Commands\MigrateEncryptionCommand::class]);
+        $this->commands([\McKibbe\Database\Encryption\Console\Commands\MigrateEncryptionCommand::class]);
     }
 }

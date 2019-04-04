@@ -13,7 +13,7 @@ if (! function_exists('database_encryption')) {
      */
     function database_encryption(): \AustinHeap\Database\Encryption\EncryptionHelper
     {
-        return \AustinHeap\Database\Encryption\EncryptionFacade::getInstance();
+        return \McKibbe\Database\Encryption\EncryptionFacade::getInstance();
     }
 }
 
@@ -21,7 +21,7 @@ if (! function_exists('db_encryption')) {
     /**
      * @return \AustinHeap\Database\Encryption\EncryptionHelper
      */
-    function db_encryption(): \AustinHeap\Database\Encryption\EncryptionHelper
+    function db_encryption(): \McKibbe\Database\Encryption\EncryptionHelper
     {
         return database_encryption();
     }
@@ -31,7 +31,7 @@ if (! function_exists('dbencryption')) {
     /**
      * @return \AustinHeap\Database\Encryption\EncryptionHelper
      */
-    function dbencryption(): \AustinHeap\Database\Encryption\EncryptionHelper
+    function dbencryption(): \McKibbe\Database\Encryption\EncryptionHelper
     {
         return database_encryption();
     }
