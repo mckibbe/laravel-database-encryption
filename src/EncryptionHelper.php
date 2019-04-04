@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace AustinHeap\Database\Encryption;
+namespace McKibbe\Database\Encryption;
 
 use RuntimeException;
 use Illuminate\Support\Facades\Config;
