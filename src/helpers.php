@@ -11,7 +11,7 @@ if (! function_exists('database_encryption')) {
     /**
      * @return \AustinHeap\Database\Encryption\EncryptionHelper
      */
-    function database_encryption(): \AustinHeap\Database\Encryption\EncryptionHelper
+    function database_encryption(): \McKibbe\Database\Encryption\EncryptionHelper
     {
         return \McKibbe\Database\Encryption\EncryptionFacade::getInstance();
     }
