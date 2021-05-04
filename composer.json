@@ -36,10 +36,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Austin Heap",
-            "email": "me@austinheap.com",
-            "homepage": "https://github.com/austinheap",
-            "role": "Developer"
+            
         }
     ],
     "replace": {
